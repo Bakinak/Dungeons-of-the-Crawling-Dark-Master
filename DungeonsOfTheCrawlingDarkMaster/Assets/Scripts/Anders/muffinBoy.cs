@@ -32,6 +32,7 @@ public class muffinBoy : MonoBehaviour
 
             if (animToPlay >= 2) animToPlay = 0;
         }
+<<<<<<< HEAD
 
         var move = new Vector3(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"), 0);
         if (move.magnitude > 0)
@@ -51,5 +52,8 @@ public class muffinBoy : MonoBehaviour
 
 
 
+=======
+        //Hello
+>>>>>>> 6ebb7b4faa2ef9dd6de845a9caacc252903c355c
     }
 }
